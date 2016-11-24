@@ -7,6 +7,8 @@ sleep 4
 git clone https://github.com/TheIoTLearningInitiative/CodeLabs.git
 
 opkg update
+opkg upgrade mraa
+opkg upgrade upm
 
 sh CodeLabs/Chacmultun/setup.sh
 sh CodeLabs/Chicanna/setup.sh
